@@ -1,0 +1,7 @@
+@media only screen and (max-width: 1000px) {
+    #description_section {height: 100vh; }
+    #industry_section {height: auto; }
+}
+@media only screen and (max-width: 900px) {
+    
+}

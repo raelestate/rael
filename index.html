@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jarallax.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="hero_section">
+        <nav>
+            <div class="navbar">
+                <div class="nav-container">
+                    <input class="checkbox" type="checkbox" name="" id="" />
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line3"></span>
+                    </div>  
+                    <div class="menu-items">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">blogs</a></li>
+                        <li><a href="#">portfolio</a></li>
+                        <li><a href="#">contact</a></li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="hero_background jarallax" data-jarallax data-speed="0.2">
+            <figure class="jarallax-img">
+                <img src="images/hero_img.png" alt="screen with code">
+            </figure>
+        </div>
+        <div class="container">
+            <div class="hero_content">
+                <h2>RAEL</h2>
+                <div class="hero_content_button_holder">
+
+                </div>
+            </div>
+            
+            <div class="hero_scroll_down animated bounce">
+                <a href="#description_section">
+                    <h2>Scroll Down</h2>
+                    <img src="images/arrow_down.png" alt="scroll down">
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="description_section">
+        <div class="container">
+            <div class="description_holder">
+                <div class="text1">
+                    <h2>Creating</h2>
+                </div>
+                <div class="text2">
+                    <h2>Digital Solutions</h2>
+                </div>
+                <div class="text3">
+                    <h2>That Drive</h2>
+                </div>
+                <div class="text4">
+                    <h2>Real Results</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about_section">
+        <div class="about_img">
+            <figure>
+                <img class="" src="images/about_img.jpg" alt="">
+            </figure>
+        </div>
+        <div class="about_holder">
+            <div class="about_us">
+                <p>I craft high-end web experiences, blending design, development, and art direction to create visually striking, user-focused digital solutions that elevate brands and individuals.</p>
+            </div>
+        </div>
+    </div>
+    <div id="industry_section">
+        <div class="container">
+            <div class="industry_info">
+                <div class="text1">
+                    <h2>Experiences</h2>
+                </div>
+                <div class="text2">
+                    <h2>Web Development</h2>
+                </div>
+                <div class="text3">
+                    <h2>UI/UX Design</h2>
+                </div>
+                <div class="text4">
+                    <h2>Web Services</h2>
+                </div>
+            </div>
+            <div class="industry_companies">
+                <div class="company company1">
+                    <div class="date"> <h2> 2025 - Now </h2> </div>
+                    <div class="company_name"> <h2> Wright Dev </h2> </div>
+                    <div class="company_role"> <h2> Founder / CEO </h2> </div>
+                </div>
+                <div class="company company2">
+                    <div class="date"> <h2> July 2024 - November 2024 </h2> </div>
+                    <div class="company_name"> <h2> Proweaver Inc. </h2> </div>
+                    <div class="company_role"> <h2> Frontend Website Developer (Wordpress Conversion) </h2> </div>
+                </div>
+                <div class="company company3">
+                    <div class="date"> <h2> February 2024 - June 2024 </h2> </div>
+                    <div class="company_name"> <h2> Casino Español de Cebu </h2> </div>
+                    <div class="company_role"> <h2> Intern (Web Developer) </h2> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="explore_works_section">
+        <div class="container">
+            <div class="explore_holder">
+               <div class="explore_info">
+                    <h2>Beloved Works</h2>
+               </div>
+               <div class="work1">
+                    <h2><a href="https://freedomboard.netlify.app/">Freedom Board</a></h2>
+                    <p>Your Space, Your Voice, Freedom Board An open platform to share your thoughts freely and anonymously.</p>
+                    <figure>
+                        <img src="images/work1.png" alt="">
+                    </figure>
+                    <div class="tech_stacks">
+                        <h2>Technologies Used</h2>
+                        <ul>
+                            <li><h2>React</h2></li>
+                            <li><h2>HTML</h2></li>
+                            <li><h2>CSS</h2></li>
+                            <li><h2>JS</h2></li>
+                            <li><h2>Firebase</h2></li>
+                        </ul>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+   <!-- PRICING CALCULATOR SECTION -->
+   <div id="pricing_section">
+    <div class="container">
+      <div class="pricing_header">
+        <h2>Let’s Figure Out Your Website Cost</h2>
+        <p>
+          Tell us what you need and we'll give you an estimate. Choose the options that best describe your dream website.
+        </p>
+      </div>
+      <form id="pricing_form">
+        <!-- Website Type -->
+        <div class="form-group">
+          <label for="website_type">What type of website do you need?</label>
+          <select id="website_type" name="website_type">
+            <option value="basic" data-price="500">Basic Website – $500</option>
+            <option value="blog" data-price="800">Blog/Portfolio – $800</option>
+            <option value="ecommerce" data-price="1500">E-commerce – $1500</option>
+            <option value="custom" data-price="2000">Custom Website – $2000</option>
+          </select>
+        </div>
+        <!-- Extra Features -->
+        <div class="form-group">
+          <label>Extra Features – Pick as many as you need:</label>
+          <div class="checkbox-group">
+            <input type="checkbox" id="responsive" name="features" value="responsive" data-price="300" />
+            <label for="responsive">Make it Responsive ($300)</label>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="seo" name="features" value="seo" data-price="200" />
+            <label for="seo">SEO Optimization ($200)</label>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="cms" name="features" value="cms" data-price="400" />
+            <label for="cms">CMS Integration ($400)</label>
+          </div>
+        </div>
+        <!-- Additional Pages -->
+        <div class="form-group">
+          <label for="pages">Need more pages? ($50 per extra page):</label>
+          <input type="number" id="pages" name="pages" min="0" value="0" />
+        </div>
+        <!-- Design & Branding -->
+        <div class="form-group">
+          <label>Design & Branding:</label>
+          <div class="checkbox-group">
+            <input type="checkbox" id="uiux" name="design" value="uiux" data-price="500" />
+            <label for="uiux">Custom UI/UX Design ($500)</label>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="logo" name="design" value="logo" data-price="300" />
+            <label for="logo">Logo Design ($300)</label>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="branding" name="design" value="branding" data-price="700" />
+            <label for="branding">Branding Package ($700)</label>
+          </div>
+        </div>
+        <!-- Content & Marketing -->
+        <div class="form-group">
+          <label>Content & Marketing:</label>
+          <div class="checkbox-group">
+            <input type="checkbox" id="content" name="marketing" value="content" data-price="400" />
+            <label for="content">Content Writing ($400)</label>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="social" name="marketing" value="social" data-price="250" />
+            <label for="social">Social Media Integration ($250)</label>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="email_marketing" name="marketing" value="email_marketing" data-price="300" />
+            <label for="email_marketing">Email Marketing Integration ($300)</label>
+          </div>
+        </div>
+        <!-- Technical Services -->
+        <div class="form-group">
+          <label>Technical Services:</label>
+          <div class="checkbox-group">
+            <input type="checkbox" id="payment" name="technical" value="payment" data-price="200" />
+            <label for="payment">Payment Integration ($200)</label>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="ecommerce_features" name="technical" value="ecommerce_features" data-price="400" />
+            <label for="ecommerce_features">Advanced E-commerce Features ($400)</label>
+          </div>
+          <div class="checkbox-group">
+            <!-- Hosting & Domain is always included -->
+            <input type="checkbox" id="hosting" name="technical" value="hosting" data-price="150"/>
+            <label for="hosting">Hosting & Domain Registration (Included - $150)</label>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="maintenance" name="technical" value="maintenance" data-price="100" />
+            <label for="maintenance">Maintenance Package ($100)</label>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="analytics" name="technical" value="analytics" data-price="150" />
+            <label for="analytics">Analytics & Tracking Setup ($150)</label>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="live_chat" name="technical" value="live_chat" data-price="250" />
+            <label for="live_chat">Live Chat Integration ($250)</label>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="mobile_app" name="technical" value="mobile_app" data-price="800" />
+            <label for="mobile_app">Mobile App Integration ($800)</label>
+          </div>
+        </div>
+        <!-- Other Requirements & Contact Info -->
+        <div class="form-group">
+          <label for="requirements">Other Requirements (Optional):</label>
+          <textarea id="requirements" name="requirements" rows="3" placeholder="Let us know if you have any specific ideas or additional requirements"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="customer_name">Your Name:</label>
+          <input type="text" id="customer_name" name="customer_name" placeholder="John Doe" />
+        </div>
+        <div class="form-group">
+          <label for="customer_email">Your Email:</label>
+          <input type="email" id="customer_email" name="customer_email" placeholder="john@example.com" />
+        </div>
+        <button type="button" id="calculate_btn" class="cust_btn">Get My Price</button>
+      </form>
+      <div id="price_result">
+        <h2>Your estimated price: $<span id="total_price">0</span></h2>
+        <p>
+          If you like what you see, please take a screenshot of this estimate and email it to
+          <a href="mailto:nerirhel@gmail.com">nerirhel@gmail.com</a>. We can then discuss the details and get started on making your dream website a reality!
+        </p>
+        <!-- New button to send the estimate via email -->
+        <button type="button" id="print_btn" class="cust_btn">Print My Estimate</button>
+      </div>
+    </div>
+  </div>
+
+    <script src="script.js" type="module"></script>
+    <script src="jquery.js"></script>
+    <script src="wow.min.js"></script>
+    <script> new WOW().init(); </script>
+    <!-- Jarallax -->
+    <script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
+    <script src="https://unpkg.com/jarallax@1.10/dist/jarallax-video.min.js"></script>
+    <script src="https://unpkg.com/jarallax@1.10/dist/jarallax-element.min.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <!-- Lenis -->
+    <script src="lenis.min.js"></script> 
+    <script type="module">
+        const lenis = new Lenis({
+            autoRaf: true
+        });
+    </script>
+    <!-- THREE JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
