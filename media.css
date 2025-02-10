@@ -1,7 +1,9 @@
 @media only screen and (max-width: 1000px) {
-    #description_section {height: 100vh; }
+    #description_section {height: 60vh; }
     #industry_section {height: auto; }
+    .description_holder { line-height: 70px; }
+    .description_holder h2 { height: unset; }
 }
 @media only screen and (max-width: 900px) {
-    
+
 }
