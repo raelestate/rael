@@ -138,13 +138,20 @@ p{color: var(--white); font-size: var(--font-small);}
     .explore_holder { width: 100%; margin: 20px 0;} 
     .explore_info { text-align: center; margin-bottom: 50px; } 
     .explore_info h2 { font-size: var(--font-medium); font-weight: 600; text-transform: uppercase; margin-bottom: 20px; } 
-    .work1 { width: 100%; max-width: 1200px; margin: 0 auto; padding: 20px; } 
+    .work1 { /*! width: 100%; */ max-width: 1200px; margin: 0 auto; padding: 20px; } 
     .work1 h2 { font-size: 50px; font-weight: 600; margin-bottom: 20px; } 
     .work1 h2 a { color: var(--white); text-decoration: none; transition: color 0.3s ease; } 
     .work1 h2 a:hover { color: var(--color1); } 
     .work1 p { font-size: 18px; line-height: 1.5; margin-bottom: 30px; color: var(--white); } 
     .work1 figure { margin: 0; padding: 0; overflow: hidden; } 
     .work1 figure img { width: 80%; display: block; object-fit: cover; border-radius: 8px;  margin-bottom: 30px;} 
+    .work2 {  max-width: 1200px; margin: 0 auto; padding: 20px; } 
+    .work2 h2 { font-size: 50px; font-weight: 600; margin-bottom: 20px; } 
+    .work2 h2 a { color: var(--white); text-decoration: none; transition: color 0.3s ease; } 
+    .work2 h2 a:hover { color: var(--color1); } 
+    .work2 p { font-size: 18px; line-height: 1.5; margin-bottom: 30px; color: var(--white); } 
+    .work2 figure { margin: 0; padding: 0; overflow: hidden; } 
+    .work2 figure img { width: 80%; display: block; object-fit: cover; border-radius: 8px;  margin-bottom: 30px;height: 400px;object-position: top;} 
     .tech_stacks { margin-top: 30px; } 
     .tech_stacks h2 { font-size: 30px; font-weight: 600; margin-bottom: 20px; text-transform: uppercase; } 
     .tech_stacks ul { display: flex; flex-wrap: wrap; gap: 20px; padding: 0; margin: 0; list-style: none; } 
