@@ -158,6 +158,12 @@ p{color: var(--white); font-size: var(--font-small);}
     .tech_stacks ul li { background: var(--color9); padding: 10px 20px; border-radius: 50px; } 
     .tech_stacks ul li h2 { font-size: 20px; font-weight: 400; margin: 0; text-transform: uppercase; } 
 
+
+    .work2 p{}
+    .work2 ul{}
+    .work2 ul li{padding: 10px 0;}
+    .work2 ul li a{color: var(--white); text-decoration: unset;}
+    .work2 ul li a:hover{text-decoration: underline;}
 #pricing_section{background: var(--black);padding: 0 10px;}
     .pricing_header{}
     .pricing_header h2{font-size: 50px;font-weight: 700;}
@@ -206,5 +212,79 @@ p{color: var(--white); font-size: var(--font-small);}
     .contact_details a { color: var(--white); text-decoration: none; transition: color 0.3s ease; }
     .contact_details a:hover { color: var(--color1); }
 
+.work2 ul li {    padding: 10px 10px;    border: 1px solid var(--white);}
+.company_role p {    margin: 10px 0;    font-size: 20px;}  
 
-  
+footer{background: var(--black);}
+.footer_container {
+    padding: 40px 0;
+    background: var(--black);
+    color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer_top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer_about, .footer_links, .footer_socials {
+    flex: 1 1 250px;
+    margin: 10px;
+}
+
+.footer_about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer_about p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer_links h3, .footer_socials h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer_links ul, .footer_socials ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_links li, .footer_socials li {
+    margin-bottom: 8px;
+}
+
+.footer_links a, .footer_socials a {
+    color: #f5f5f5;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer_links a:hover, .footer_socials a:hover {
+    color: #00ff99; /* Highlight color */
+}
+
+.footer_bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 15px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .footer_top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer_about, .footer_links, .footer_socials {
+        margin: 20px 0;
+    }
+}
